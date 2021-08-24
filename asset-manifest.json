@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hit_the_mole/static/css/main.0f3f64db.chunk.css",
-    "main.js": "/hit_the_mole/static/js/main.75861688.chunk.js",
-    "main.js.map": "/hit_the_mole/static/js/main.75861688.chunk.js.map",
-    "runtime-main.js": "/hit_the_mole/static/js/runtime-main.088f6e0a.js",
-    "runtime-main.js.map": "/hit_the_mole/static/js/runtime-main.088f6e0a.js.map",
-    "static/js/2.2bb16c56.chunk.js": "/hit_the_mole/static/js/2.2bb16c56.chunk.js",
-    "static/js/2.2bb16c56.chunk.js.map": "/hit_the_mole/static/js/2.2bb16c56.chunk.js.map",
-    "static/js/3.8f496520.chunk.js": "/hit_the_mole/static/js/3.8f496520.chunk.js",
-    "static/js/3.8f496520.chunk.js.map": "/hit_the_mole/static/js/3.8f496520.chunk.js.map",
-    "index.html": "/hit_the_mole/index.html",
-    "static/css/main.0f3f64db.chunk.css.map": "/hit_the_mole/static/css/main.0f3f64db.chunk.css.map",
-    "static/js/2.2bb16c56.chunk.js.LICENSE.txt": "/hit_the_mole/static/js/2.2bb16c56.chunk.js.LICENSE.txt",
-    "static/media/bober.ca733838.png": "/hit_the_mole/static/media/bober.ca733838.png",
-    "static/media/heart.da5cdae6.png": "/hit_the_mole/static/media/heart.da5cdae6.png"
+    "main.css": "/Hit_the_beaver/static/css/main.0f3f64db.chunk.css",
+    "main.js": "/Hit_the_beaver/static/js/main.75861688.chunk.js",
+    "main.js.map": "/Hit_the_beaver/static/js/main.75861688.chunk.js.map",
+    "runtime-main.js": "/Hit_the_beaver/static/js/runtime-main.16b71a1c.js",
+    "runtime-main.js.map": "/Hit_the_beaver/static/js/runtime-main.16b71a1c.js.map",
+    "static/js/2.2bb16c56.chunk.js": "/Hit_the_beaver/static/js/2.2bb16c56.chunk.js",
+    "static/js/2.2bb16c56.chunk.js.map": "/Hit_the_beaver/static/js/2.2bb16c56.chunk.js.map",
+    "static/js/3.8f496520.chunk.js": "/Hit_the_beaver/static/js/3.8f496520.chunk.js",
+    "static/js/3.8f496520.chunk.js.map": "/Hit_the_beaver/static/js/3.8f496520.chunk.js.map",
+    "index.html": "/Hit_the_beaver/index.html",
+    "static/css/main.0f3f64db.chunk.css.map": "/Hit_the_beaver/static/css/main.0f3f64db.chunk.css.map",
+    "static/js/2.2bb16c56.chunk.js.LICENSE.txt": "/Hit_the_beaver/static/js/2.2bb16c56.chunk.js.LICENSE.txt",
+    "static/media/bober.ca733838.png": "/Hit_the_beaver/static/media/bober.ca733838.png",
+    "static/media/heart.da5cdae6.png": "/Hit_the_beaver/static/media/heart.da5cdae6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.088f6e0a.js",
+    "static/js/runtime-main.16b71a1c.js",
     "static/js/2.2bb16c56.chunk.js",
     "static/css/main.0f3f64db.chunk.css",
     "static/js/main.75861688.chunk.js"
