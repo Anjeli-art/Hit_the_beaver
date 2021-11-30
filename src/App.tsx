@@ -1,16 +1,12 @@
 import React from 'react';
 import s from "./components/Bober.module.css"
-import {Menu} from "./components/Menu";
-
-
-
-
+import {Bober} from "./components/Bober";
 
 
 function App() {
     return (
         <div className={s.App}>
-            <Menu/>
+            <Bober/>
         </div>
     );
 }
