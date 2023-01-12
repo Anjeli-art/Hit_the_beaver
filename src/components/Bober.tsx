@@ -1,4 +1,4 @@
-import React, {MouseEventHandler, useEffect, useState} from 'react';
+import React, {ChangeEvent, MouseEventHandler, MouseEvent, useEffect, useState} from 'react';
 import s from "./Bober.module.css"
 import bober from "./bober.png"
 import heart from "./heart.png"
@@ -14,12 +14,10 @@ export const Bober = () => {
     let [marginLeft, setmarginLeft] = useState(40)
     const [hearts, sethearts] = useState([heart, heart, heart, heart, heart])
 
-    console.log(data + "ddddddd")
+
     let getCount = () => {
-        console.log(data + "jjjjjjjj")
         if (data < 100) {
             setData(data + 1)
-            console.log(data + "jjjjjjjj")
         } else if (data === 100 || data === 110) {
             setData(data = 1)
             updateHearts()
@@ -55,9 +53,11 @@ export const Bober = () => {
 
     }
 
-    const clickPast = (e: any) => {
-        if (e.target === e.currentTarget) {
-            removeHearts();
+    function clickPast (e: MouseEvent<HTMLDivElement> | undefined) {
+        if(e){
+            if (e.target  === e.currentTarget  ) {
+                removeHearts();
+            }
         }
     }
 
@@ -65,32 +65,32 @@ export const Bober = () => {
     useEffect(() => {
 
         if (data > 0 && data === 1) {
-            const i = setInterval(getMargin, 12500);
+            const i = setInterval(getMargin, 2500);
             return () => {
                 clearInterval(i)
             }
         } else if (data > 1 && data <= 10) {
-            const i = setInterval(getMargin, 12000);
+            const i = setInterval(getMargin, 2000);
             return () => {
                 clearInterval(i)
             }
         } else if (data > 10 && data <= 30) {
-            const i = setInterval(getMargin, 11700);
+            const i = setInterval(getMargin, 1700);
             return () => {
                 clearInterval(i)
             }
         } else if (data > 30 && data <= 50) {
-            const i = setInterval(getMargin, 11500);
+            const i = setInterval(getMargin, 1500);
             return () => {
                 clearInterval(i)
             }
         } else if (data > 50 && data <= 80) {
-            const i = setInterval(getMargin, 11200);
+            const i = setInterval(getMargin, 1200);
             return () => {
                 clearInterval(i)
             }
         } else if (data > 80 && data <= 99) {
-            const i = setInterval(getMargin, 11000);
+            const i = setInterval(getMargin, 1000);
             return () => {
                 clearInterval(i)
             }
@@ -136,7 +136,7 @@ export const Bober = () => {
                 <div className={s.mouseblock} onClick={clickPast}>
                     <div style={boberstyle} onClick={() => {
                         getCount();
-                        // getMargin()
+                        getMargin()
                     }}>
                         <img style={boberimg}
                              src={bober}/>
