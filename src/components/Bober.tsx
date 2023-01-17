@@ -1,4 +1,4 @@
-import React, {ChangeEvent, MouseEventHandler, MouseEvent, useEffect, useState} from 'react';
+import React, { MouseEvent, useEffect, useState} from 'react';
 import s from "./Bober.module.css"
 import bober from "./bober.png"
 import heart from "./heart.png"
@@ -128,7 +128,7 @@ export const Bober = () => {
                     <div className={s.lifes}>
                         {hearts.map(el => {
                             return <div className={s.life}>
-                                <img src={el}/>
+                                <img src={el} alt={"life"}/>
                             </div>
                         })}
                     </div>
@@ -139,7 +139,7 @@ export const Bober = () => {
                         getMargin()
                     }}>
                         <img style={boberimg}
-                             src={bober}/>
+                             src={bober} alt={"bober"}/>
                     </div>
                 </div>
                 {data === 0 && <div className={s.znakomstvo}>
